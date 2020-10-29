@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Akzidenz-grotesk-bold';
+   font-display: swap;
+   src: url('Akzidenz-grotesk-bold/font.ttf');
+}
+@font-face {
+   font-family: 'Akzidenz-grotesk-light';
+   font-display: swap;
+   src: url('Akzidenz-grotesk-light/font.ttf');
+}
+@font-face {
+   font-family: 'SourceCodePro-Regular';
+   font-display: swap;
+   src: url('SourceCodePro-Regular/font.ttf');
+}

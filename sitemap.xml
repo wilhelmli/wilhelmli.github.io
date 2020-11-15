@@ -9,12 +9,15 @@
 		<loc>https://willi.uk/about.html</loc>
 	</url>
 	<url>
-		<loc>https://willi.uk/Office.html</loc>
-	</url>
-	<url>
 		<loc>https://willi.uk/books.html</loc>
 	</url>
 	<url>
 		<loc>https://willi.uk/wiki.html</loc>
+	</url>
+	<url>
+		<loc>https://willi.uk/en.html</loc>
+	</url>
+	<url>
+		<loc>https://willi.uk/Office.html</loc>
 	</url>
 </urlset>

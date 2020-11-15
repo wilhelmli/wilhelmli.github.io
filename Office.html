@@ -134,6 +134,89 @@
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-ms" data-rv-view="747">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Support" tabindex="-1" role="dialog" aria-labelledby="SupportLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="SupportLabel">Support</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Support_body"><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://willi-uk.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                          </div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Support").on("hidden.bs.modal", function () {    var html = $( "#Support_body" ).html();    $( "#Support_body" ).empty();    $( "#Support_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Support_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Support_viewed", true, 3600);
+      OpenModal("Support");
+    } , 3000);
+  }
+});
+</script>
+
 <section class="mbr-section contacts2 cid-sgsmdLL8dt" id="contacts2-mq">
     <!---->
     
@@ -145,7 +228,7 @@
         <div class="row">
             <!--Titles-->
             <div class="title col-12">
-                <h2 class="align-left mbr-fonts-style display-1"><strong>&gt; Support</strong></h2>
+                <h2 class="align-left mbr-fonts-style display-1"><a href="javascript:OpenModal('Support')" class="text-primary"><strong>&gt; Support</strong></a></h2>
                 <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">Let me know if you need help with anything!</h3>
             </div>
             <div class="col-12">

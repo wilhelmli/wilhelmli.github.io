@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "v5 LI. W",
-    "currentPage": "Office.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -80,7 +80,7 @@
     "witsec-white-label": true,
     "witsec-mailform": true,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-159316723-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-159316723-1');\n</script>",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
@@ -773,7 +773,7 @@
       "settings": {
         "title": "Office - EF",
         "order": 6,
-        "meta_descr": ""
+        "meta_descr": "Wilhelm Li is a designer based in Vancouver, BC Canada. He is known for his brand HALT CREATION, an outlet of his futuristic design ideas. He recently graduated with a BA in Economics from University of Victoria. Currently, he is enrolled in UBC Sauder Business School to pursue a diploma in Urban Land Economics while preparing his portfolio for application to architecture school. "
       },
       "components": [
         {
@@ -1637,7 +1637,8 @@
     "About.html": {
       "settings": {
         "title": "About",
-        "order": 3
+        "order": 3,
+        "meta_descr": "Wilhelm Li is a designer based in Vancouver, BC Canada. He is known for his brand HALT CREATION, an outlet of his futuristic design ideas. He recently graduated with a BA in Economics from University of Victoria. Currently, he is enrolled in UBC Sauder Business School to pursue a diploma in Urban Land Economics while preparing his portfolio for application to architecture school. "
       },
       "components": [
         {
@@ -2454,7 +2455,8 @@
     "Portfolio.html": {
       "settings": {
         "title": "Portfolio",
-        "order": 4
+        "order": 4,
+        "meta_descr": "Wilhelm Li is a designer based in Vancouver, BC Canada. He is known for his brand HALT CREATION, an outlet of his futuristic design ideas. He recently graduated with a BA in Economics from University of Victoria. Currently, he is enrolled in UBC Sauder Business School to pursue a diploma in Urban Land Economics while preparing his portfolio for application to architecture school. "
       },
       "components": [
         {
@@ -3674,7 +3676,8 @@
     "Booklist.html": {
       "settings": {
         "title": "Booklist",
-        "order": 5
+        "order": 5,
+        "meta_descr": "Wilhelm Li is a designer based in Vancouver, BC Canada. He is known for his brand HALT CREATION, an outlet of his futuristic design ideas. He recently graduated with a BA in Economics from University of Victoria. Currently, he is enrolled in UBC Sauder Business School to pursue a diploma in Urban Land Economics while preparing his portfolio for application to architecture school. "
       },
       "components": [
         {
@@ -5241,7 +5244,8 @@
     "Showroom.html": {
       "settings": {
         "title": "Showroom",
-        "order": 2
+        "order": 2,
+        "meta_descr": "Wilhelm Li is a designer based in Vancouver, BC Canada. He is known for his brand HALT CREATION, an outlet of his futuristic design ideas. He recently graduated with a BA in Economics from University of Victoria. Currently, he is enrolled in UBC Sauder Business School to pursue a diploma in Urban Land Economics while preparing his portfolio for application to architecture school. "
       },
       "components": [
         {

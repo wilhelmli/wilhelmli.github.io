@@ -18,9 +18,18 @@
 		<loc>https://willi.uk/en.html</loc>
 	</url>
 	<url>
-		<loc>https://willi.uk/Showroom.html</loc>
+		<loc>https://willi.uk/Research.html</loc>
 	</url>
 	<url>
-		<loc>https://willi.uk/Research.html</loc>
+		<loc>https://willi.uk/Consulting.html</loc>
+	</url>
+	<url>
+		<loc>https://willi.uk/previous.html</loc>
+	</url>
+	<url>
+		<loc>https://willi.uk/recent.html</loc>
+	</url>
+	<url>
+		<loc>https://willi.uk/exhibition.html</loc>
 	</url>
 </urlset>

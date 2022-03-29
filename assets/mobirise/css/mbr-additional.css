@@ -6227,16 +6227,21 @@ a {
   color: #858484;
   text-align: left;
 }
-.cid-t1rM5qM4ZM {
-  background-image: url("../../../assets/images/portfolio-2020-page-17.png");
+.cid-t1tFitS0Ep {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-t1rM5qM4ZM .mbr-section-title,
-  .cid-t1rM5qM4ZM .mbr-section-subtitle,
-  .cid-t1rM5qM4ZM .mbr-section-btn,
-  .cid-t1rM5qM4ZM .mbr-text {
-    text-align: center;
+  .cid-t1tFitS0Ep .image-wrapper {
+    margin-bottom: 1rem;
   }
+}
+.cid-t1tFitS0Ep .row {
+  flex-direction: row-reverse;
+}
+.cid-t1tFitS0Ep img {
+  width: 100%;
 }
 .cid-t1rIdBt1Ti {
   padding-top: 6rem;

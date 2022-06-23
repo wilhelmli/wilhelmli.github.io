@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 174,
+    "uniqCompNum": 173,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/li-128x128-3-128x128.png",
@@ -80,7 +80,9 @@
     "witsec-white-label": true,
     "witsec-mailform": true,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-159316723-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-159316723-1');\n</script>",
-    "publishChangesOnly": false
+    "publishChangesOnly": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -6920,7 +6922,7 @@
           },
           "_name": "gallery3",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"gallery3\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#000000\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3-3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Artworks</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Concept art • Furniture • Sculptures</h5>\n        </div>\n        <div class=\"row mt-4\">\n            \n            \n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/102417443/BAUHAUS-PAINTINGS-%28Part-1-2%29\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bauhaus-painting-366x458.jpg\" data-slide-to=\"2\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Bauhaus Paintings</i><div>(Victoria, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/131562667/Abandoned-%282021%29\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/chessbd-366x458.jpg\" data-slide-to=\"3\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Chess Board</i><div>(Vancouver, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/101654527/Reconstructed-Workdesk-With-219-IPS-Monitor\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/img-9751-366x457.jpg\" data-slide-to=\"4\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Reconstructed Workdesk</i><div>(Vancouver, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/106633113/Post-CYOR-Sculptures-2020\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/pencil-366x459.jpg\" data-slide-to=\"5\" alt=\"Revisions & Alterations HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>SUM-SCULPTURE: Pencil</i><div>(Victoria, 2019)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">How many times can I request revisions?&nbsp;</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Revisions-and-Author-Alterations-\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/106633113/Post-CYOR-Sculptures-2020\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/calcu-366x458.jpg\" data-slide-to=\"6\" alt=\"Timeframe and Delivery Halt Creation\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>SUM-SCULPTURE: Calculator</i><br>(Victoria, 2019)</h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">What are the deliverables and their corresponding deadlines?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Timeframe-and-Delivery\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"gallery3\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#000000\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3-3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Artworks</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Concept art • Furniture • Sculptures</h5>\n        </div>\n        <div class=\"row mt-4\">\n            \n            \n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/102417443/BAUHAUS-PAINTINGS-%28Part-1-2%29\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bauhaus%20painting-366x458.jpg\" data-slide-to=\"2\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Bauhaus Paintings</i><div>(Victoria, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/131562667/Abandoned-%282021%29\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/chessbd-366x458.jpg\" data-slide-to=\"3\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Chess Board</i><div>(Vancouver, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/101654527/Reconstructed-Workdesk-With-219-IPS-Monitor\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/img-9751-366x457.jpg\" data-slide-to=\"4\" alt=\"Copyright / Trademark HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>Reconstructed Workdesk</i><div>(Vancouver, 2020)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Who owns what and what type of licenses are available?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Copyright-/-Trademarks\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/106633113/Post-CYOR-Sculptures-2020\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/pencil-366x459.jpg\" data-slide-to=\"5\" alt=\"Revisions & Alterations HALT CREATION\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>SUM-SCULPTURE: Pencil</i><div>(Victoria, 2019)</div></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">How many times can I request revisions?&nbsp;</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Revisions-and-Author-Alterations-\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://www.behance.net/gallery/106633113/Post-CYOR-Sculptures-2020\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/calcu-366x458.jpg\" data-slide-to=\"6\" alt=\"Timeframe and Delivery Halt Creation\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><i>SUM-SCULPTURE: Calculator</i><br>(Victoria, 2019)</h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">What are the deliverables and their corresponding deadlines?</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"TermsAndConditions.html#Timeframe-and-Delivery\" class=\"btn item-btn btn-white-outline\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
           "_anchor": "gallery3-4l",
           "_isUserblock": true,
           "_cid": "t9hx9R97db",
@@ -9241,7 +9243,8 @@
       "settings": {
         "title": "电矩狂魔 CTON At Spark Stage, Guangzhou China",
         "order": 7,
-        "meta_descr": "电矩狂魔 “DianJuKuangMo” (CTON)  is a car themed interactive art show organized by Haojiang Li from July 20 - October 31, 2022. It summaries all projects of CTON in the years of 2021 and 2020.. It represents a series of deep introspections on the revolution of electric vehicles in modern times. \n\n电矩狂魔 CTON, 为李镐江于2018-2020年间 HALT CREATION 的汽车相关设计分支。本次展览主题为 “探寻车与艺术，艺术与车文化的结合，” 主要展示汽车与新能源相关的汽车主题插画以及主题改装实车。展览周期现定为2022年7月20日 至 10月31日，后续根据行程考虑续期。"
+        "meta_descr": "电矩狂魔 “DianJuKuangMo” (CTON)  is a car themed interactive art show organized by Haojiang Li from July 20 - October 31, 2022. It summaries all projects of CTON in the years of 2021 and 2020.. It represents a series of deep introspections on the revolution of electric vehicles in modern times. \n\n电矩狂魔 CTON, 为李镐江于2018-2020年间 HALT CREATION 的汽车相关设计分支。本次展览主题为 “探寻车与艺术，艺术与车文化的结合，” 主要展示汽车与新能源相关的汽车主题插画以及主题改装实车。展览周期现定为2022年7月20日 至 10月31日，后续根据行程考虑续期。",
+        "meta_image": "@PROJECT_PATH@/assets/images/track-day-16by9-by-li-wilhelm-haojiang-at-cton-halt-creation.jpg"
       },
       "components": [
         {
@@ -9771,103 +9774,135 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
+            ".mbr-overlay": {
+              "z-index": "1"
             },
-            ".carousel": {
-              "margin": "30px 0",
-              "background": "@bgColor"
-            },
-            ".carousel .item": {
-              "text-align": "center",
-              "overflow": "hidden",
-              "height": "475px"
-            },
-            ".item img": {
-              "margin": "0 auto",
-              "width": "100%",
-              "height": "100%"
-            },
-            ".carousel .carousel-control": {
-              "width": "50px",
-              "height": "50px",
-              "background": "#000",
-              "margin": "auto 0",
-              "opacity": "0.8"
-            },
-            ".carousel .carousel-control:hover": {
-              "opacity": "0.9"
-            },
-            ".carousel .carousel-control i": {
-              "font-size": "41px",
-              "margin-top": "3px"
-            },
-            ".carousel-caption h3, .carousel-caption p": {
-              "color": "#fff",
-              "display": "inline-block",
-              "font-family": "'Oswald', sans-serif",
-              "text-shadow": "none",
-              "margin-bottom": "20px"
-            },
-            ".carousel-caption h3": {
-              "background": "@tbgColor",
-              "padding": "12px 24px",
-              "font-size": "40px",
-              "text-transform": "uppercase"
-            },
-            ".carousel-caption p": {
-              "background": "@stbgColor",
-              "padding": "10px 20px",
-              "font-size": "20px",
-              "font-weight": "300"
-            },
-            ".carousel-indicators": {
-              "margin-top": "0px",
-              "position": "relative",
-              "background": "#ccc"
-            },
-            ".carousel-indicators div.active": {
-              "background": "@inbgColor",
-              "border-color": "@inbgColor"
-            },
-            ".carousel .nav": {
-              "background": "#eee"
-            },
-            ".carousel .nav a": {
-              "color": "#333",
-              "border-radius": "0",
-              "font-size": "85%",
-              "padding": "10px 16px",
-              "background": "transparent"
-            },
-            ".carousel .nav .active a": {
-              "color": "#fff",
-              "background": "@inbgColor"
-            },
-            ".carousel .nav strong": {
-              "display": "block",
-              "font-family": "'Roboto', sans-serif",
-              "font-size": "110%",
-              "text-transform": "uppercase"
-            },
-            "@media only screen and (max-width: 600px)": {
-              ".carousel-indicators": {
-                "display": "none"
+            "@media (min-width: 992px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 100px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 100px)",
+                  "object-fit": "contain"
+                }
               }
             },
-            "DIV": {
-              "color": "#000000",
-              "text-align": "right"
+            "@media (max-width: 991px) and (min-width: 768px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 65px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 65px)",
+                  "object-fit": "contain"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 55px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 55px)",
+                  "object-fit": "contain"
+                }
+              },
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".carousel, .carousel-inner": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            ".carousel-caption": {
+              "bottom": "40px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              }
+            },
+            "P": {
+              "color": "#bbbbbb"
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section mbr-id=\"_slider_with_tab\" class=\"mbr-section slider_with_text_button\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n      <input type=\"color\" title=\"Title Bg Color\" name=\"tbgColor\" value=\"#000000\">\n      <input type=\"color\" title=\"SubTitle Bg Color\" name=\"stbgColor\" value=\"#7f1933\">\n      <input type=\"color\" title=\"Indicator Bg Color\" name=\"inbgColor\" value=\"#25d366\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showtitle\">\n      <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubtitle\">\n      <input type=\"checkbox\" title=\"Show Navigator\" name=\"shownavi\" checked>\n      <select title=\"Content Width\" name=\"widthContent\">\n            <option value=\"1\">Full Width</option>\n            <option value=\"2\" selected>None Full Width</option>\n        </select>\n       <select title=\"Image Ratio\" name=\"imgratio\" mbr-if=\"widthContent == '1'\">\n            <option value=\"fill\">Fill</option>\n            <option value=\"contain\" selected>Contain</option>\n            <option value=\"cover\">Cover</option>\n        <option value=\"scale-down\">Scale down</option>\n                <option value=\"none\">None</option>\n        </select>\n      <select title=\"Slider Count\" name=\"slidercount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        <option value=\"4\" selected>4</option>\n        </select>\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n <div mbr-class=\"{ 'fullwidth': widthContent == 1, 'container': widthContent == 2}\">  \n\n\t\t\t<div id=\"myCarousel2singa\" class=\"carousel slide\" data-ride=\"carousel\">\n\t\t\t\t<!-- Wrapper for carousel items -->\n\t\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\t<div class=\"item carousel-item active\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/07789253-267d-412f-a9f5-a446bf10e768.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Amazing Digital Experience</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien bibendum.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 1\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/08a15e3c-f64d-4908-8c4f-4fe615cdf0d3.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Live Monitoring Tools</h3>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Nullam hendrerit justo non leo aliquet imperdiet. Etiam sagittis lectus condime dapibus vitae.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 2\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-9652.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Attractive Pricing</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque tempor quis.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 3\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-2420.png\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Award Winning Support</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus ultrices placerat.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- End Carousel Inner -->\n\t\t\t\t<div class=\"nav nav-pills nav-justified carousel-indicators\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"0\" class=\"nav-item active\" mbr-if=\"slidercount > 0\" mbr-text=\"\"><i>Infinity</i>, 2022<strong></strong></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"1\" class=\"nav-item\" mbr-if=\"slidercount > 1\" mbr-text=\"\"><i>Atmosphere</i>, 2022<strong></strong></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"2\" class=\"nav-item\" mbr-if=\"slidercount > 2\" mbr-text=\"\"><i>Urban Pursuit</i>, 2021</div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"3\" class=\"nav-item\" mbr-if=\"slidercount > 3\" mbr-text=\"\"><i>Across Death Valley</i>, 2018<br></div>\n                 \n\t\t\t\t</div>\n              <!-- Carousel controls -->\n\t\t\t\t<a class=\"carousel-control left carousel-control-prev\" href=\"#myCarousel2singa\" data-slide=\"prev\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-left fas\"></i>\n\t\t\t\t</a>\n\t\t\t\t<a class=\"carousel-control right carousel-control-next\" href=\"#myCarousel2singa\" data-slide=\"next\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-right fas\"></i>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\n\t</div>\n \n  \n</section>",
-          "_cid": "pS6KWtiYw2",
-          "_anchor": "design-block-pS6KWtiYw2",
+          "_name": "slider2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"slider2\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Height\" name=\"carouselHeight\" min=\"4\" max=\"12\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlaySlide\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlaySlideColor\" value=\"#232323\" condition=\"overlaySlide\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlaySlideOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlaySlide\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\" selected>\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\" mbr-class=\"{'col-lg-12':fullWidth}\">\n                <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlaySlide\" mbr-style=\"{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}\">\n                    </div>\n                    <ol class=\"carousel-indicators\">\n                        <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"1\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"2\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"3\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"4\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"5\" class=\"active\"></li>\n                        <li data-target=\"#{{sliderId}}\" data-slide-to=\"6\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"7\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"8\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"9\"></li>\n                        \n                    </ol>\n                    <div class=\"carousel-inner\">\n                        <div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/track-day-16by9-by-li-wilhelm-haojiang-at-cton-halt-creation-1.jpeg\" data-slide-to=\"0\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/tesla-spring-break-watermark-free-web.jpeg\" data-slide-to=\"1\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/the-final-smear-by-li-haojiang-wilhelm-large.jpeg\" data-slide-to=\"2\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/pkhw-blk-bg-flat-1.jpeg\" data-slide-to=\"3\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/07789253-267d-412f-a9f5-a446bf10e768.jpg\" data-slide-to=\"4\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Infinity, 2022.Various sizes. Digital painting. Collection of PENKR.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/img-2383.jpeg\" data-slide-to=\"5\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/08a15e3c-f64d-4908-8c4f-4fe615cdf0d3.jpg\" data-slide-to=\"6\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/img-9652.jpg\" data-slide-to=\"7\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/img-2421.png\" data-slide-to=\"8\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/img-2420.png\" data-slide-to=\"9\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div>\n                        \n                    </div>\n                    <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only\">Previous</span>\n                    </a>\n                    <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "slider2-4r",
+          "_isUserblock": true,
+          "_cid": "t9zkdzOmiV",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10848,6 +10883,107 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".carousel": {
+              "margin": "30px 0",
+              "background": "@bgColor"
+            },
+            ".carousel .item": {
+              "text-align": "center",
+              "overflow": "hidden",
+              "height": "475px"
+            },
+            ".item img": {
+              "margin": "0 auto",
+              "width": "100%",
+              "height": "100%"
+            },
+            ".carousel .carousel-control": {
+              "width": "50px",
+              "height": "50px",
+              "background": "#000",
+              "margin": "auto 0",
+              "opacity": "0.8"
+            },
+            ".carousel .carousel-control:hover": {
+              "opacity": "0.9"
+            },
+            ".carousel .carousel-control i": {
+              "font-size": "41px",
+              "margin-top": "3px"
+            },
+            ".carousel-caption h3, .carousel-caption p": {
+              "color": "#fff",
+              "display": "inline-block",
+              "font-family": "'Oswald', sans-serif",
+              "text-shadow": "none",
+              "margin-bottom": "20px"
+            },
+            ".carousel-caption h3": {
+              "background": "@tbgColor",
+              "padding": "12px 24px",
+              "font-size": "40px",
+              "text-transform": "uppercase"
+            },
+            ".carousel-caption p": {
+              "background": "@stbgColor",
+              "padding": "10px 20px",
+              "font-size": "20px",
+              "font-weight": "300"
+            },
+            ".carousel-indicators": {
+              "margin-top": "0px",
+              "position": "relative",
+              "background": "#ccc"
+            },
+            ".carousel-indicators div.active": {
+              "background": "@inbgColor",
+              "border-color": "@inbgColor"
+            },
+            ".carousel .nav": {
+              "background": "#eee"
+            },
+            ".carousel .nav a": {
+              "color": "#333",
+              "border-radius": "0",
+              "font-size": "85%",
+              "padding": "10px 16px",
+              "background": "transparent"
+            },
+            ".carousel .nav .active a": {
+              "color": "#fff",
+              "background": "@inbgColor"
+            },
+            ".carousel .nav strong": {
+              "display": "block",
+              "font-family": "'Roboto', sans-serif",
+              "font-size": "110%",
+              "text-transform": "uppercase"
+            },
+            "@media only screen and (max-width: 600px)": {
+              ".carousel-indicators": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_slider_with_tab\" class=\"mbr-section slider_with_text_button\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f4f1f1\">\n      <input type=\"color\" title=\"Title Bg Color\" name=\"tbgColor\" value=\"#232323\">\n      <input type=\"color\" title=\"SubTitle Bg Color\" name=\"stbgColor\" value=\"#7f1933\">\n      <input type=\"color\" title=\"Indicator Bg Color\" name=\"inbgColor\" value=\"#7f1933\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showtitle\" checked>\n      <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubtitle\" checked>\n      <input type=\"checkbox\" title=\"Show Navigator\" name=\"shownavi\" checked>\n      <select title=\"Content Width\" name=\"widthContent\">\n            <option value=\"1\" selected>Full Width</option>\n            <option value=\"2\">None Full Width</option>\n        </select>\n       <select title=\"Image Ratio\" name=\"imgratio\" mbr-if=\"widthContent == '1'\">\n            <option value=\"fill\">Fill</option>\n            <option value=\"contain\">Contain</option>\n            <option value=\"cover\" selected>Cover</option>\n        <option value=\"scale-down\">Scale down</option>\n                <option value=\"none\">None</option>\n        </select>\n      <select title=\"Slider Count\" name=\"slidercount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        <option value=\"4\" selected>4</option>\n        </select>\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n <div mbr-class=\"{ 'fullwidth': widthContent == 1, 'container': widthContent == 2}\">  \n\n\t\t\t<div id=\"myCarousel2singa\" class=\"carousel slide\" data-ride=\"carousel\">\n\t\t\t\t<!-- Wrapper for carousel items -->\n\t\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\t<div class=\"item carousel-item active\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t\t<img src=\"https://cdn.pixabay.com/photo/2014/08/01/15/51/manhattan-407703_960_720.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Amazing Digital Experience</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien bibendum.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 1\">\n\t\t\t\t\t\t<img src=\"https://cdn.pixabay.com/photo/2020/05/26/09/01/night-5222267__340.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Live Monitoring Tools</h3>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Nullam hendrerit justo non leo aliquet imperdiet. Etiam sagittis lectus condime dapibus vitae.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 2\">\n\t\t\t\t\t\t<img src=\"https://cdn.pixabay.com/photo/2020/05/24/21/53/woman-5216414_960_720.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Attractive Pricing</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque tempor quis.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 3\">\n\t\t\t\t\t\t<img src=\"https://cdn.pixabay.com/photo/2020/05/20/07/01/glencoe-5195121__340.jpg\" style=\"object-fit:{{imgratio}}\" alt>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">Award Winning Support</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus ultrices placerat.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- End Carousel Inner -->\n\t\t\t\t<div class=\"nav nav-pills nav-justified carousel-indicators\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"0\" class=\"nav-item active\" mbr-if=\"slidercount > 0\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>About</strong>Lorem ipsum dolor sit amet</a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"1\" class=\"nav-item\" mbr-if=\"slidercount > 1\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>Features</strong> Nesciunt stumpown odio aliqua</a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"2\" class=\"nav-item\" mbr-if=\"slidercount > 2\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>Pricing</strong> Oullam hendrerit justom leow</a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"3\" class=\"nav-item\" mbr-if=\"slidercount > 3\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>Support</strong> Proin suscipit non adipiscing</a></div>\n                 \n\t\t\t\t</div>\n              <!-- Carousel controls -->\n\t\t\t\t<a class=\"carousel-control left carousel-control-prev\" href=\"#myCarousel2singa\" data-slide=\"prev\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-left fas\"></i>\n\t\t\t\t</a>\n\t\t\t\t<a class=\"carousel-control right carousel-control-next\" href=\"#myCarousel2singa\" data-slide=\"next\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-right fas\"></i>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\n\t</div>\n \n  \n</section>",
+          "_cid": "pS6KWtiYw2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-pS6KWtiYw2"
         }
       ]
     },
